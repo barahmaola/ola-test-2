@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- أيقونات -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2>لوحة التحكم</h2>
+
+    <ul>
+      <li class="active"><i class="fa fa-home"></i> الرئيسية</li>
+      <li><i class="fa fa-users"></i> المستخدمين</li>
+      <li><i class="fa fa-chart-line"></i> الإحصائيات</li>
+      <li><i class="fa fa-box"></i> المنتجات</li>
+      <li><i class="fa fa-cog"></i> الإعدادات</li>
+    </ul>
+  </div>
+
+  <div class="main">
+
+    <div class="topbar">
+      <h1>أهلاً بك 👋</h1>
+
+      <div class="profile">
+        <img src="https://i.pravatar.cc/40" alt="">
+        <span>Admin</span>
+      </div>
+    </div>
+
+    <div class="cards">
+
+      <div class="card blue">
+        <i class="fa fa-users"></i>
+        <h2>1,250</h2>
+        <p>المستخدمين</p>
+      </div>
+
+      <div class="card green">
+        <i class="fa fa-dollar-sign"></i>
+        <h2>$8,420</h2>
+        <p>الأرباح</p>
+      </div>
+
+      <div class="card orange">
+        <i class="fa fa-cart-shopping"></i>
+        <h2>320</h2>
+        <p>الطلبات</p>
+      </div>
+
+      <div class="card red">
+        <i class="fa fa-chart-line"></i>
+        <h2>76%</h2>
+        <p>النمو</p>
+      </div>
+
+    </div>
+
+    <div class="table-section">
+
+      <h2>آخر الطلبات</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>الاسم</th>
+            <th>المنتج</th>
+            <th>الحالة</th>
+            <th>السعر</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>أحمد</td>
+            <td>لابتوب</td>
+            <td><span class="status done">مكتمل</span></td>
+            <td>$950</td>
+          </tr>
+
+          <tr>
+            <td>محمد</td>
+            <td>هاتف</td>
+            <td><span class="status pending">قيد المعالجة</span></td>
+            <td>$650</td>
+          </tr>
+
+          <tr>
+            <td>سارة</td>
+            <td>سماعات</td>
+            <td><span class="status cancel">ملغي</span></td>
+            <td>$120</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
