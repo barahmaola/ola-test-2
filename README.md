@@ -1,3 +1,11 @@
 # ola-test-2
-test repository
-bjbjjhjh
+
+## Getting Started
+1.Fork the repository
+2.Review the Documentation
+3.Follow the contribution guidelines
+
+## Features
+-Basic Git operations
+-Collaboration workflows
+-Project managment
